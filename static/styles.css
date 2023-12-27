@@ -1,0 +1,132 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:grey;
+    
+}
+
+.cont {
+    /* show one container in left and other in right */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    
+
+
+
+}
+
+.container {
+    min-height: 50px; /* Set a minimum height */
+    max-width: 500px;
+    text-align: center;
+    max-width: 500px;
+    margin: 29px;
+    padding: 51px;
+    border: 3px solid #ccc;
+    border-radius: 27px;
+    
+    overflow: hidden;
+    
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+}
+
+h1 {
+    color: #ae9b9b;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #27405b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.cop{
+    /* align at lef top corner of the container and should be very small width */
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    /* opacity: 0; */
+    pointer-events: none;
+    color: rgb(6, 66, 38);
+    font-size: large;
+    
+
+    
+}
+.copy-icon {
+
+    background-color: #ae9b9b;
+    width: 10px;
+    height: 10px;
+    /* margin-right: 100px; */
+    cursor: pointer;
+    text-size-adjust: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #13561c;
+}
+
+/* .s{
+   it is a  heading show some animation to it
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #464040;
+    text-shadow: 0 0 10px #160909;
+    animation: animate 2s linear infinite;
+
+
+} */
+h2 {
+    color: #ae9b9b;
+    /* margin-bottom: 10px; */
+}
